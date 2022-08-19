@@ -1,0 +1,380 @@
+#header {
+    width: 100%;
+    height: 60px;
+    background: rgb(255,255,255);
+    /*border-bottom: 1px solid rgb(219,219,219);*/
+    
+    position: fixed;
+    margin: auto;
+    
+
+}
+body{
+  margin: 0;
+  font-family: "Roboto","Arial",sans-serif;
+}
+.menu {
+  padding-top: 19px;
+  float: left;
+  width: 57px;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+.same {
+  width: 16px;
+  margin: 4px 22px;
+  border: 1px solid #696969;
+}
+.logoimg {
+  height: 59px;
+  width: 140px;
+ 
+}
+.logo{
+  width: auto;
+  float: left;
+}
+.search{
+  margin-left: 440px;
+  float: left;
+  width: 543px;
+  
+}
+.searchform{
+  
+  margin-top: 11px;
+  width: 550px;
+
+  
+}
+.searchtext{
+  
+
+    width: 563px;
+    border : 1px solid rgb(210,210,210);
+    height: 33px;
+    
+    font-size: 16px;
+}
+.simg{
+ 
+  float: left;
+  margin-top: 11px;
+  width: 60px;
+  height: 38px;
+}
+.img{
+  width: 47px;
+  height: 30px;
+}
+.button{
+  width: auto;
+  height: fit-content;
+  border: 1px solid rgb(210,210,210);
+}
+
+.mikeimg{
+  
+  height: 38px;
+  width: 38px;
+  border-radius: 100%;
+  padding: 4px;
+}
+.mike{
+  float: left;
+  margin-top: 6px;
+  margin-left: 4px;
+  
+  width: fit-content;
+  height: fit-content;
+}
+.three{
+  
+  float: left;
+  margin-top: 9px;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 400px;
+}
+.plus{
+  float: left;
+  
+  width: fit-content;
+  height: fit-content;
+}
+.plusimg{
+  padding-left: 19px;
+  height: 36px;
+  width: 38px;
+}
+#mainbody{
+  width: 100%;
+  padding-top: 62px;
+}
+
+.right{
+  width: 243px;
+  height: 90%;
+  
+  margin: 0px;
+  float: left;
+  overflow-y:hidden;
+  display: flex;
+  flex-direction: column;
+
+ 
+
+ position: fixed;
+
+}
+.right:hover{
+  overflow-y: scroll;
+
+}
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(128, 124, 124); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:gray; 
+}
+.left::-webkit-scrollbar-thumb:hover {
+  background:gray; 
+}
+
+
+.one{
+  width: auto;
+  
+  height: 43px;
+}
+
+.listimg
+{
+  width: 37px;
+  padding-left: 14px;
+  height: 27px;
+  padding-top: 9px;
+  float: left;
+}
+.subimg
+{    border-radius: 50%;
+  width: 25px;
+  /* border: solid; */
+  margin-top: 8px;
+  margin-left: 23px;
+  height: 28px;
+  
+  float: left;
+}
+.names{
+  padding-top: 15px;
+  /* padding-left: 70px; */
+  font-size: 16px;
+  /* border: solid; */
+  margin-left: 70px;
+}
+.dec{
+  text-decoration: none;
+}
+a.dec:hover{
+  background-color: #ddd8d8;
+}
+a.dec{
+  color: black;
+}
+a.dec:active{
+  background-color:  #b4b0b0;
+}
+.head{
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 22px;
+  
+  color: #6c5e5e;
+  font-weight: bold;
+  padding-top: 9px;
+}
+.liststyle{
+  font-size: 15px;
+  padding-left: 22px;
+
+  
+  
+}
+li{
+  display: inline-block;
+}
+a.li{
+  color: #817d7d;
+  font-weight: bold;
+
+}
+.left{
+  float: left;
+  width: 1659px;
+  height: 1500px;
+
+ 
+  margin-left: 249px;
+  padding: 5px;
+
+}
+.upper
+{
+  height: 55px;
+  width: 100%;
+  border-bottom:1px solid rgb(210,210,210);
+  border-top: 1px solid rgb(210,210,210);
+
+
+}
+.text{
+    border: 1px solid rgb(201, 199, 199);
+    width: fit-content;
+    padding: 5px;
+    height: fit-content;
+    background-color: #F0F3F3;
+    border-radius: 20px;
+    
+}
+
+.lower{
+  height: 10000px;;
+  width: 100%;
+  background-color: rgb(242 247 247 / 61%);
+  
+}
+.thumbnail{
+  width:407px;
+  height: 373px;
+   
+ 
+  float: left;
+}
+.timg{
+  width: 390px;
+  padding-left: 14px;
+  height: 210px;
+  padding: 30px;
+  padding-left: 14px;
+
+}
+.profile{
+  width:50px;
+  height: 66px;
+  float: left;
+  margin-top: -34px;
+  margin-left: 14px;
+ 
+  padding-top: 6px;
+}
+.details{
+  margin-top: -34px;
+  width: 331px;
+  height: 66px;
+  line-height: 1.3;
+  margin-left: 69px;
+  
+  padding-top: 9px;
+  }
+
+.postimg{    border-radius: 50%;
+  width: 39px;
+  /* border: solid; */
+  margin: 7px 0 0 0px;
+  height: 39px;
+
+}
+.longtext{
+  font-weight: bold;
+  line-height: 1.5;
+}
+.chname{
+  font-size: 13px;
+  font-weight: 550;
+  color: gray;
+}
+
+.abc{
+  width: fit-content;
+  float: left;
+  height: fit-content;
+}
+.efg{
+ 
+  width: fit-content;
+  float: left;
+  height: fit-content; 
+}
+
+.hr{
+  width: 99%;
+  height: 0;
+  clear: both;
+  border: solid;
+  color:#c9c4c4;
+}
+.shorts{
+ 
+  clear: both;
+  height: 500px;
+  width: 98%;
+  padding: 15px;
+  /* margin: 51px; */
+  /* flex: auto; */
+}
+
+.reels{
+  float: left;
+  width: 193px;
+  
+  height: 437px;
+
+  margin-left: 4px;
+}
+.reelsimg{
+  width: 187px;
+  height: 348px;
+
+}
+.reelstext{
+  line-height: 1.6;
+
+}
+
+.aboveimg{
+  position: relative;
+}
+.bottom-right {
+ 
+  padding: 4px;
+  position: absolute;
+  bottom: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  right: 12px;
+  background-color: black;
+  color: white;
+
+}
+
+
+.atext{
+  text-decoration: none;
+  color: black;
+}
+ 
