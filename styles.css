@@ -3,7 +3,7 @@
     height: 60px;
     background: rgb(255,255,255);
     /*border-bottom: 1px solid rgb(219,219,219);*/
-    
+    display: flex;
     position: fixed;
     margin: auto;
     z-index: 1;
@@ -17,6 +17,7 @@ body{
   padding-top: 19px;
   float: left;
   width: 57px;
+  
 }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 .same {
@@ -32,12 +33,18 @@ body{
 .logo{
   width: auto;
   float: left;
+  
 }
 .search{
-  margin-left: 440px;
-  float: left;
-  width: 543px;
   
+  float: left;
+  width: fit-content;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 2;
+  justify-content: center;
 }
 .searchform{
   
@@ -49,7 +56,7 @@ body{
 .searchtext{
   
 
-    width: 563px;
+    width: 560px;
     border : 1px solid rgb(210,210,210);
     height: 33px;
     
@@ -58,7 +65,7 @@ body{
 .simg{
  
   float: left;
-  margin-top: 11px;
+  padding-top: 2px;
   width: 60px;
   height: 38px;
 }
@@ -81,27 +88,30 @@ body{
 }
 .mike{
   float: left;
-  margin-top: 10px;
+  
   margin-left: 12px;
   padding: 5.5px;
   background: #f7f1f1;
   border-radius: 50%;
   width: 30px;
-  height: 30px;}
+  height: 30px;
+  }
   
 .three{
   
   float: left;
   margin-top: 9px;
   height: fit-content;
-  width: fit-content;
-  margin-left: 400px;
+  width:200px;
+  display: flex;
+  
 }
 .plus{
   float: left;
   
   width: fit-content;
   height: fit-content;
+  flex-grow: 1;
 }
 .plusimg{
   padding-left: 19px;
@@ -116,17 +126,14 @@ body{
 .right{
   width: 243px;
   height: 90%;
-  
   margin: 0px;
   float: left;
-  overflow-y:hidden;
+  overflow-y: hidden;
   display: flex;
   flex-direction: column;
-
- 
-
- position: fixed;
-
+  position: absolute;
+  /* background: azure; */
+  z-index: 0;
 }
 .right:hover{
   overflow-y: scroll;
@@ -193,6 +200,7 @@ body{
   text-decoration: none;
 }
 a.dec:hover{
+ 
   background-color: #ddd8d8;
 }
 a.dec{
